@@ -13,23 +13,32 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{5b5b3a29-884b-4b22-8eae-b275502cb789}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="cctype.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="cccfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ccnip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mbuffer.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmem.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="mbuffer.c">
+      <Filter>Memory</Filter>
     </ClCompile>
-    <ClCompile Include="ccnip.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dllmain.cpp">
+    <ClCompile Include="ccmem.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
